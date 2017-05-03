@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PEARcss - Responsive Grid System</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicons/favicon.ico">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <link href="pear-grid.min.css" type="text/css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="grid-container">
+            <div id="mobile-nav" class="hidden-lg">
+                <a class="toggler"><i class="fa fa-bars"></i></a>
+                <ul class="menu">
+                    <a class="toggler-close"><i class="fa fa-times"></i></a>
+                    <li><a href=""><i class="fa fa-home"></i></a></li>
+                    <li><a href="">Getting Started</a></li>
+                    <li><a href="">How to Use</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="https://github.com/PEARcss/PEARcss/archive/master.zip"><i class="fa fa-download"></i></a></li>
+                </ul>
+            </div>
+            <div id="desktop-nav" class="only-lg">
+                <!-- link names slide in on hover (Logo will be home button)Start Here, How to use, Gallery, Download, *Resources*-->
+                <section class="dmenu">
+                    
+                    <a href="#"><img class="nav-thumb center-inline" src="img/icon-transparent-half.png"/></a>
+                    <a href="" class="center-block"><i class="fa fa-play-circle-o"></i><p class="name">Getting Started</p></a>
+                    <a href="" class="center-block"><i class="fa fa-file-o"></i><p class="name">How to Use</p></a>
+                    <a href="" class="center-block"><i class="fa fa-photo"></i><p class="name">Gallery</p></a>
+                    <a href="https://github.com/PEARcss/PEARcss/archive/master.zip" class="center-block"><i class="fa fa-download"></i><p class="name">Download</p></a>
+                </section>
+            </div><!-- end of nav -->
+            <div id="header">
+                <img class="center-inline" src="img/pearcss-logo-350dpi.png"/>
+                <div class="spacer only-lg"></div>
+                <div id="header-info">
+                    <h1 class="center-block">Easily Build Responsive Sites</h1>
+                    <h3>A fully responsive grid system and convenient .classes for content control.<br/>
+                        Use for any project, build sites quickly and efficiently.
+                    </h3>
+                    <div class="spacer"></div>
+                        <a id="dwnld-btn" class="center-inline" href="https://github.com/PEARcss/PEARcss/archive/master.zip"><i class="fa fa-download"></i><br/>Download</a>
+                    <div class="spacer"></div>
+                </div>
+            </div>
+            <div id="features">
+                <h1>Features</h1>
+                <section class="row">
+                <div class="half-width-m third-lg">
+                    <h2><i class="fa fa-arrows-alt"></i>Scalable</h2>
+                    <p>Built using percentage values, your content fluidy fits all screen sizes</p>
+                </div>
+                <div class="half-width-m third-lg">
+                    <h2><i class="fa fa-eye"></i>Easy Syntax</h2>
+                    <p>Easy to read & remember .class names using simple words (i.e. "full-width-s, fourth-m")</p>
+                </div>
+                <div class="third-lg">
+                    <h2><i class="fa fa-file-photo-o"></i>Content-Control</h2>
+                    <p>Control what you want visitors to see with convenient classes such as .hidden, .only, and more!.</p>
+                </div>
+                </section>
+                <section class="row">
+                <div class="third-lg">
+                    <h2><i class="fa fa-cubes"></i>Build Mockup Layouts</h2>
+                    <p>Put together a responsive prototype for a client quickly. 
+                    No need to copy and paste dummy text, use <strong>.lorem-text</strong> instead. </p>
+                </div>
+                <div class="half-width-m third-lg">
+                    <h2><i class="fa fa-puzzle-piece"></i>Perfect Fit</h2>
+                    <p>Plugs right into your HTML and work alongside any other CSS files. </p>
+                </div>
+                <div class="half-width-m third-lg">
+                    <h2><i class="fa fa-cogs"></i>No Hacking Needed</h2>
+                    <p>Minimal and lightweight. No time wasted searching and overriding predefined styles.</p>
+                </div>
+                </section>
+            </div><!-- end of features-->
+            <div id="footer" class="row">
+                <div class="quarter-lg">
+                    <h3>About PEARcss</h3>
+                    <p>Inspired by Twitter's BootStrap, and the many new web developers
+                        learning CSS, I decided to make this grid system for ease of use for myself
+                        and for others to build sites quickly and have fun.
+                    </p>
+                    <p><a href="#"><strong>Back to Top</strong></a> or <a href="index.html"><i class="fa fa-home"></i></a></p>
+                </div>
+                <div class="quarter-lg">
+                    <h3>How Are You Using it?</h3>
+                    <p>Be featured on PEARcss gallery to show others what you've built and
+                        how easy it is to use.
+                    </p>
+                    <p><a href=""><strong>Submit</strong></a> your screenshots & links </p>
+                </div>
+                <div class="quarter-lg">
+                    <h3>Developed by</h3>
+                    <p>PEARcss was a project lead by Errol Thomas, and was thoroughly tested
+                        by the development team at <a href="http://www.neuetab.com">Neuetab LLC</a>.
+                    </p>
+                </div>
+                <div class="quarter-lg">
+                    <ul class="foot-menu">
+                        <li><a href="">Contact Me</a><br/>
+                        <p>Follow me 
+                            <a href="https://www.instagram.com/thomasnyc718"><i class="fa fa-instagram 2x"></i></a>
+                            <a href="https://www.twitter.com/thomase718"><i class="fa fa-twitter-square 2x"></i></a>
+                        </p>
+                        </li>
+                        <li><a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+                        <br /><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a> and GNU General Public License v3.0.<br/><img src="img/GNU_logo.png"/></p></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">CheatSheet</a></li>
+                    </ul>
+                </div>
+                <div class="spacer"></div>
+                <div class="row resources center-block">
+                    <a class="half-width-s half-width-m quarter-lg" href="http://www.neuetab.com"><img src="img/neuetab_logo_white.png"/></a>
+                    <a class="hidden-s half-width-m quarter-lg" href="http://fontawesome.io"><img src="img/fa_logo.png"/></a>
+                    <a class="hidden-s half-width-m quarter-lg" href="https://code.visualstudio.com/"><img src="img/vsc_logo.png"/></a>
+                    <a class="half-width-s half-width-m quarter-lg" href="https://github.com/PEARcss"><img src="img/github-logo.png"/></a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="spacer hidden-s"></div>
+                <div>
+                    <p class="copyright"><i class="fa fa-copyright"></i> 2017 Neuetab LLC. All rights reserved.<br/>
+                    Follow Neuetab <a href="https://www.facebook.com/neuetab"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/neuetab"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/neuetab"><i class="fa fa-twitter-square"></i></a>
+                    </p>
+                </div>
+            </div><!-- end of footer -->   
+        </div><!-- end of container-->
+    </body>
+</html>
