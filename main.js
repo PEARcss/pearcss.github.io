@@ -10,9 +10,9 @@ $(document).ready(function(){
     });
     // Desktop nav expands wider on hover
      $('#desktop-nav .dmenu').mouseenter(function(){
-        $('p.name').show(200);
-     });
-      $('#desktop-nav .dmenu').mouseleave(function(){
-        $('p.name').hide(200);
-     });
+            $('p.name').css("opacity","1");
+      });
+       $('#desktop-nav .dmenu').mouseleave(function(){
+        $('p.name').css("opacity", "0");
+      });
 });

@@ -109,10 +109,11 @@ body{
 }
 #desktop-nav .dmenu a:hover{background-color:#ffffff;}
 .name{ 
-   display:none;
+   filter: alpha(opacity="0");
+   opacity:0;
    color:#39b54a;
    text-align:center;
-   position:relative; 
+   white-space: nowrap;
 }
 
 }
