@@ -192,7 +192,7 @@ body{
 
 #features p{width:70%;}
 #header img{width:350px; height:auto;}
-.resources a>img{width:200px; height:auto;}
+.resources a>img{width:125px; height:auto;}
 }
 @media all and (min-width: 70em){
 /*** HomePage (index.html) *****/
