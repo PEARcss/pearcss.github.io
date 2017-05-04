@@ -29,7 +29,7 @@ body{
 #mobile-nav ul{
     width:100%;
     height:100%;
-    background-color:#232830;
+    background-color:#39b54a;
     margin:0;
     padding-top:6em;
     position:fixed;
@@ -45,8 +45,8 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;   
 }
-#mobile-nav li a{color: #ffffff;}
-#mobile-nav li a:hover{color:#39b54a;}
+#mobile-nav li a{color: #000000;}
+#mobile-nav li a:hover{color:#ffffff;}
 }
 @media all and (min-width: 48em){
  #mobile-nav ul{padding-top:8em;max-width:30%;}
