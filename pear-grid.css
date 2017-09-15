@@ -151,7 +151,7 @@ a {cursor:pointer;} p{line-height:1.5em;}
 	.only-lg{display:none;}
 	.hidden-s{display:none;}
 }
-@media all and (min-width: 48em) and (max-width:69.99em){
+@media all and (min-width: 48em) and (max-width:63.99em){
 	.only-s{display:none;}
 	.only-lg{display:none;}
 	.hidden-m{display:none;}
